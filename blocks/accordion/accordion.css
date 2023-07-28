@@ -34,8 +34,11 @@
 
 .accordion .item-content {
     display: none;
+    /* Comment out following to have style one div under each accordion title */
+    /*
     grid-template-columns: 1fr 1fr;
     gap: 12px;
+    */
     padding: 12px;
     border-bottom: 1px solid #dddddd;
 }
