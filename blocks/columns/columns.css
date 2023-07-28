@@ -31,3 +31,13 @@
     order: unset;
   }
 }
+
+@media (min-width: 900px) {
+  .columns.promotions > div {
+    margin-bottom: 32px;
+  }
+
+  .columns.rewards > div {
+    align-items: normal;
+  }
+}
